@@ -1,0 +1,95 @@
+/* .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+} */
+
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+body {
+  margin-top: 20px;
+  background: #eee;
+}
+
+.contact-info__wrapper {
+  overflow: hidden;
+  border-radius: 0.625rem 0.625rem 0 0;
+}
+
+@media (min-width: 1024px) {
+  .contact-info__wrapper {
+    border-radius: 0 0.625rem 0.625rem 0;
+    padding: 5rem !important;
+  }
+}
+.contact-info__list span.position-absolute {
+  left: 0;
+}
+.z-index-101 {
+  z-index: 101;
+}
+.list-style--none {
+  list-style: none;
+}
+.contact__wrapper {
+  background-color: #fff;
+  border-radius: 0 0 0.625rem 0.625rem;
+}
+
+@media (min-width: 1024px) {
+  .contact__wrapper {
+    border-radius: 0.625rem 0 0.625rem 0.625rem;
+  }
+}
+@media (min-width: 1024px) {
+  .contact-form__wrapper {
+    padding: 4rem !important;
+  }
+}
+.shadow-lg {
+  box-shadow: 0 1rem 3rem rgba(132, 138, 163, 0.1) !important;
+}
