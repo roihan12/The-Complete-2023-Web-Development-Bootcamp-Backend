@@ -19,8 +19,13 @@ const config = {
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get("/", (req, res) => {
-  res.render("index.ejs", { content: "Waiting for data..." });
+app.get("/", async (req, res) => {
+  try {
+    const result = await axios.get(API_URL + "/random");
+    res.render("index.ejs", { content: JSON.stringify(result.data) });
+  } catch (error) {
+    res.render("index.ejs", { content: JSON.stringify(error.response.data) });
+  }
 });
 
 app.post("/get-secret", async (req, res) => {
